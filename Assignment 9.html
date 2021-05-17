@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assignment 9</title>
+  <style media="screen">
+  img{
+    box-shadow: 0 0 30px black;
+  }
+
+  .box{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:20%;
+    left:35%;
+  }
+  body{
+    background: #3399ff;
+  }
+  }
+  </style>
+</head>
+<body>
+  <div class="box">
+<h2>Enter Any Alphabet:</h2>
+<img   width="400px" height="300px" id="img"><br><br>
+<h1 id="h1"></h1>
+
+<script>
+window.addEventListener("keydown", alpha,false);
+function alpha(key){
+  arr=["a.jpg","b.jpg","c.jpg","d.jpg","e.jpg","f.jpg","g.jpg","h.jpg",
+       "i.jpg","j.jpg","k.jpg","l.jpg","m.jpg","n.jpg","o.jpg","p.jpg",
+       "q.jpg","r.jpg","s.jpg","t.jpg","u.jpg","v.jpg","w.jpg","x.jpg",
+       "y.jpg","z.jpg"];
+  var i=document.getElementById("img");
+      h=document.getElementById('h1');
+  switch(key.keyCode){
+   case 65: i.src=arr[0],i.alt="apple logo";
+   h1.innerHTML="A for Apple logo";
+   break;
+   case 66: i.src=arr[1],i.alt="Bluetooth";
+   h1.innerHTML="B for Bluetooth";
+   break;
+   case 67: i.src=arr[2],i.alt="Compact Disk";
+   h1.innerHTML="C for Compact Disk";
+   break;
+   case 68: i.src=arr[3],i.alt="Duck duck go logo";
+   h1.innerHTML="D for Duck duck go";
+   break;
+   case 69: i.src=arr[4],i.alt="Exlorer";
+   h1.innerHTML="E for Exlorer";
+   break;
+   case 70: i.src=arr[5],i.alt="Facebook";
+   h1.innerHTML="F for Facebook";
+   break;
+   case 71: i.src=arr[6],i.alt="Google";
+   h1.innerHTML="G for Google";
+   break;
+   case 72: i.src=arr[7],i.alt="Harddisk";
+   h1.innerHTML="H for Harddisk";
+   break;
+   case 73: i.src=arr[8],i.alt="iphone";
+   h1.innerHTML="I for iphone";
+   break;
+   case 74: i.src=arr[9],i.alt="Java logo";
+   h1.innerHTML="J for Java logo"
+   break;
+   case 75: i.src=arr[10],i.alt="keyboard";
+   h1.innerHTML="K for Keyboard";
+   break;
+   case 76: i.src=arr[11],i.alt="Laptop";
+   h1.innerHTML="L for Laptop";
+   break;
+   case 77: i.src=arr[12],i.alt="Motherboard";
+   h1.innerHTML="M for Motherboard";
+   break;
+   case 78: i.src=arr[13],i.alt="Nikon";
+   h1.innerHTML="N for Nikon";
+   break;
+   case 79: i.src=arr[14],i.alt="Opera";
+   h1.innerHTML="O for Opera";
+   break;
+   case 80: i.src=arr[15],i.alt="Photoshop";
+   h1.innerHTML="P for Photoshop";
+   break;
+   case 81: i.src=arr[16],i.alt="QR Code";
+   h1.innerHTML="Q for QR code";
+   break;
+   case 82: i.src=arr[17],i.alt="Ruby";
+   h1.innerHTML="R for Ruby";
+   break;
+   case 83: i.src=arr[18],i.alt="Skype";
+   h1.innerHTML="S for skype";
+   break;
+   case 84: i.src=arr[19],i.alt="Twitter";
+   h1.innerHTML="T for Twitter";
+   break;
+   case 85: i.src=arr[20],i.alt="USB";
+   h1.innerHTML="U for USB ";
+   break;
+   case 86: i.src=arr[21],i.alt="Windows Vista";
+   h1.innerHTML="V for Vista";
+   break;
+   case 87: i.src=arr[22],i.alt="Wifi";
+   h1.innerHTML="W for wifi";
+   break;
+   case 88: i.src=arr[23],i.alt="Windows XP";
+   h1.innerHTML="X for Windows XP";
+   break;
+   case 89: i.src=arr[24],i.alt="Youtube";
+   h1.innerHTML="Y for Youtube";
+  break;
+   case 90: i.src=arr[25],i.alt="Zip File";
+   h1.innerHTML="Z for Zip file"
+   break;
+}
+}
+</script>
+</div>
+</body>
+</html>
